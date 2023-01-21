@@ -6,15 +6,17 @@ body {
 .calculator {
   border: 4px solid black;
   margin: 32px auto;
-  width: 25%;
+  width: 375px;
   padding: 16px;
   border-radius: 10px;
   background-color: #e8dbe4;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .screen {
   border: 2px solid black;
-  height: 44px;
+  height: 72px;
   margin-bottom: 24px;
   background-color: #f3c361;
   padding: 14px;
@@ -30,12 +32,13 @@ body {
 
 .key {
   font-family: "Dosis", sans-serif;
+  font-size: 22px;
   width: 25%;
-  height: 52px;
+  height: 86px;
   padding: 10px;
   color: #d1bdba;
   background-color: #48300d;
-  border: 4px solid #e8dbe4;
-  border-radius: 8px;
+  border: 6px solid #e8dbe4;
+  border-radius: 12px;
   cursor: pointer;
 }

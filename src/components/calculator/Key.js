@@ -12,7 +12,7 @@ function Key({ value, type }) {
   const dispatch = useDispatch();
 
   const onClick = useCallback(() => {
-    if (type === "operator" && value === "c") {
+    if (type === "operator" && value == "C") {
       dispatch(erase());
     } else if (type === "operator" && value === "=") {
       dispatch(calculate(value));

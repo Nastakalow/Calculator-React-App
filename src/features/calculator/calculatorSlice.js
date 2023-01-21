@@ -36,7 +36,7 @@ export const calculatorSlice = createSlice({
         case "-":
           result = left - right;
           break;
-        case "x":
+        case "X":
           result = left * right;
           break;
         case "/":
