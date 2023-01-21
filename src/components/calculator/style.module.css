@@ -1,0 +1,41 @@
+body {
+  background-color: #d9595e;
+  font-family: "Dosis", sans-serif;
+}
+
+.calculator {
+  border: 4px solid black;
+  margin: 32px auto;
+  width: 25%;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: #e8dbe4;
+}
+
+.screen {
+  border: 2px solid black;
+  height: 44px;
+  margin-bottom: 24px;
+  background-color: #f3c361;
+  padding: 14px;
+  font-size: 24px;
+  border-radius: 8px;
+}
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: transparent;
+}
+
+.key {
+  font-family: "Dosis", sans-serif;
+  width: 25%;
+  height: 52px;
+  padding: 10px;
+  color: #d1bdba;
+  background-color: #48300d;
+  border: 4px solid #e8dbe4;
+  border-radius: 8px;
+  cursor: pointer;
+}
